@@ -3,3 +3,79 @@ Initial public release of create-homcouver-app CLI installer npm uploaded
 
 with this Cmnd in powershell you can install project from npm
 npx create-homcouver-app myproject
+
+
+
+📦 create-homcouver-app
+
+Official CLI Installer for the Aladdin SaaS Template (Homecouver Platform)
+Developed by Saeed Alaediny – Aladdin Trading LTD
+
+🚀 Overview
+
+The create-homcouver-app CLI lets you instantly create a new SaaS project based on the Aladdin Homecouver Template.
+It automatically fetches the latest release from GitHub and extracts it into your local directory — no manual setup needed.
+
+🧩 Features
+
+✅ Smart GitHub Integration – always fetches the latest release
+✅ One-command project creation
+✅ Cross-platform support (Windows, Linux, macOS)
+✅ Ready for SaaS, AI modules, and DevOps workflows
+✅ Fully brandable and extendable
+
+⚙️ Installation
+
+You don’t need to install anything globally — just run:
+
+npx create-homcouver-app myproject
+
+
+This will:
+
+Download the latest Aladdin SaaS Template from GitHub
+
+Extract it into a folder named myproject
+
+Display next steps for development
+
+🧠 Example Output
+🚀 Creating 'myproject' from Aladdin SaaS Template...
+📦 Downloading template from: https://github.com/aladdinventures/saas-template/releases/latest
+✅ Project ready at: C:\Users\YourName\Desktop\myproject
+Next steps:
+  cd myproject
+  make dev
+🎉 Done! Happy building 🧠💡
+
+🔄 Smart Auto-Update
+
+create-homcouver-app uses the GitHub Releases API to always pull the newest ZIP version automatically.
+No need to manually edit URLs or re-publish your npm package each time — it’s all handled automatically.
+
+🏗️ Folder Structure (after installation)
+myproject/
+ ├── backend/
+ ├── web/
+ ├── ai/
+ ├── infra/
+ └── README.md
+
+🧾 License
+
+This software is licensed under the Aladdin Proprietary License.
+Unauthorized resale, redistribution, or modification is prohibited without written permission.
+
+For commercial licenses, partnership, or enterprise integrations, please visit:
+👉 https://www.aladdintrading.ca
+
+© 2025 Aladdin Trading LTD. All rights reserved.
+Developed by Saeed Alaediny
+
+🌐 Links
+
+🧱 GitHub Repository: https://github.com/aladdinventures/create-homcouver-app
+
+💡 SaaS Template: https://github.com/aladdinventures/saas-template
+
+🌍 Website: https://www.aladdintrading.ca
