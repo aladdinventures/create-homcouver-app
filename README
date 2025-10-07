@@ -1,1 +1,5 @@
-Initial public release of create-homcouver-app CLI installer
+Initial public release of create-homcouver-app CLI installer npm uploaded
+
+
+with this Cmnd in powershell you can install project from npm
+npx create-homcouver-app myproject
